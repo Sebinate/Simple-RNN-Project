@@ -1,8 +1,8 @@
-tensorflow==2.15.0
+streamlit
 pandas
 numpy<2
 scikit-learn
-streamlit
+tensorflow==2.15.0
 ipykernel
 scikeras
 protobuf==3.20.3
