@@ -12,7 +12,7 @@ reverse_dict = dict()
 for key, value in word_indexes.items():
     reverse_dict[value] = key
 
-model = load_model('artifacts/simplernn.keras')
+model = load_model('artifacts/simplernn.h5')
 
 def preprocess(text:str):
     words = text.lower().split()
